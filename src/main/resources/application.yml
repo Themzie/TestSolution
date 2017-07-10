@@ -7,3 +7,5 @@ server:
     port:   8182
     contextPath:    /${spring.application.name}
 logging.level.org.springframework.web: INFO
+logging:
+  file: /data/logs/message_exchange.log
